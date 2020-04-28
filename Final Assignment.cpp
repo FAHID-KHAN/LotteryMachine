@@ -84,14 +84,14 @@ return 0;
 int getUserNumbers(int UserNumbers[])
 {
 
-    cout << setw(55)<<"enter 7 numbers from 1-39 :"<<endl;
+    cout << setw(55)<<"enter 7 numbers from 1-40 :"<<endl;
 
     for(int i=0;i<7;i++){
         cin>>UserNumbers[i];
         while(UserNumbers[i]<1 || 39<!UserNumbers[i])
         {
             cout<<"Invalid Number Baby!"<<endl;
-            cout<<"Can you please choose between 1-39 numbers:";
+            cout<<"Can you please choose between 1-40 numbers:";
             cin>>UserNumbers[i];
         }
     }
